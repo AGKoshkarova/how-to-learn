@@ -11,7 +11,7 @@
   <div class="page">
 
     <header class="header">
-        <img class="logo logo_place_header" src="./images/logo_place_header.svg" alt="Яндекс.Практикум">
+        <div class="logo logo_place_header"></div>
         <h1 class="header__title">Научиться учиться</h1>
         <p class="header__subtitle">Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни?
           <a class="header__link" href="#">Узнать &rarr;</a>
@@ -34,9 +34,9 @@
         </section>
 
         <section class="digits">
-          <h2 class="section-title digits__section-title">Цифры и факты</h2>
-          <h3 class="section-subtitle digits__section-subtitle">Про учёбу и мозг</h3>
-          <ul class="table digits__table">
+          <h2 class="section-title">Цифры и факты</h2>
+          <p class="section-subtitle">Про учёбу и мозг</p>
+          <ul class="table">
             <li class="table__cell">
               <h4 class="table__heading">86 миллиардов</h4>
               <p class="table__text">Число нейронов в мозге человека</p>
@@ -76,16 +76,16 @@
         </section>
 
         <section class="feynman">
-          <img class="feynman__background-image" src="./images/feynman.png" alt="Здесь должен был быть портрет Ричарда Фейнмана, но что-то пошло не так:(">
           <h2 class="feynman__title">Метод Фейнмана</h2>
-          <h3 class="feynman__subtitle">Выучить и не забыть.</h3>
-          <a class="feynman__link">Подробнее &rarr;</a>
+          <p class="feynman__subtitle">Выучить и не забыть.</p>
+          <a class="feynman__link" href="#">Подробнее &rarr;</a>
         </section>
 
         <section class="kaufman">
           <h2 class="section-title section-title_theme_dark">Принципы обучения</h2>
-          <h3 class="section-subtitle section-subtitle_theme_dark">от Джоша Кауфмана</h3>
+          <p class="section-subtitle section-subtitle_theme_dark">от Джоша Кауфмана</p>
           <ul class="table table_theme_dark">
+            <div class="kaufman__triangle"></div>
             <li class="table__cell table__cell_theme_dark">
               <h4 class="table__heading table__heading_theme_dark">1</h4>
               <p class="table__text table__text_theme_dark">Выберите привлекательный проект.</p>
@@ -127,7 +127,7 @@
               <p class="table__text table__text_theme_dark">Уделяйте внимание количеству и скорости.</p>
             </li>
           </ul>
-          <img class="kaufman__triangle" src="./images/kaufman-triangle.svg" alt="Здесь должна была быть картинка, но что-то пошло не так:(">
+          <!--<div class="kaufman__triangle"></div>-->
         </section>
 
       </main>
@@ -137,12 +137,12 @@
         <div class="footer__columns">
 
           <div class="footer__column footer__column_content_copyight">
-            <img class="logo logo_place_footer" src="./images/logo_place_footer.svg" alt="Яндекс.Практикум">
+            <div class="logo logo_place_footer"></div>
             <p class="footer__author">&copy; Анна Кошкарова</p>
           </div>
 
           <nav class="footer__column footer__column_content_info">
-            <h5 class="footer__column-heading">О Практикуме</h5>
+            <h3 class="footer__column-heading">О Практикуме</h3>
             <ul class="footer__column-links">
               <li>
                 <a class="footer__column-link" href="#">Главная</a>
@@ -156,8 +156,8 @@
             </ul>
           </nav>
 
-          <div class="footer__column footer__column_content_social">
-            <h5 class="footer__column-heading">Соцсети</h5>
+          <nav class="footer__column footer__column_content_social">
+            <h3 class="footer__column-heading">Соцсети</h3>
             <ul class="footer__column-links">
               <li>
                 <a class="footer__column-link" href="#"><img class="footer__social-icon" src="./images/facebook_color_white.svg" alt="Лого">Facebook</a>
@@ -169,7 +169,7 @@
                 <a class="footer__column-link" href="#"><img class="footer__social-icon" src="./images/instagram_color_white.svg" alt="Лого">Instagram</a>
               </li>
             </ul>
-          </div>
+          </nav>
 
         </div>
 
