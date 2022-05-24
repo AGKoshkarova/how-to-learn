@@ -3,10 +3,10 @@
   margin: 0;
   text-decoration: none;
   color: white;
+  transition: opacity .4s ease-in;
 }
 
 .footer__column-link:hover {
   text-decoration: underline;
   opacity: 50%;
-  transition: opacity .4s ease-in;
 }
